@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosaria_generate_messages_nodejs"
-  "/home/eric/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js"
+  "/home/eric/amigo-bot/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js"
 )
 
 # Per-language clean rules from dependency scanning.

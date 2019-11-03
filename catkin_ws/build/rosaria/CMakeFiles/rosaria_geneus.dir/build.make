@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/eric/amigo-bot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/catkin_ws/build
+CMAKE_BINARY_DIR = /home/eric/amigo-bot/catkin_ws/build
 
 # Utility rule file for rosaria_geneus.
 
@@ -63,10 +63,10 @@ rosaria/CMakeFiles/rosaria_geneus.dir/build: rosaria_geneus
 .PHONY : rosaria/CMakeFiles/rosaria_geneus.dir/build
 
 rosaria/CMakeFiles/rosaria_geneus.dir/clean:
-	cd /home/eric/catkin_ws/build/rosaria && $(CMAKE_COMMAND) -P CMakeFiles/rosaria_geneus.dir/cmake_clean.cmake
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria && $(CMAKE_COMMAND) -P CMakeFiles/rosaria_geneus.dir/cmake_clean.cmake
 .PHONY : rosaria/CMakeFiles/rosaria_geneus.dir/clean
 
 rosaria/CMakeFiles/rosaria_geneus.dir/depend:
-	cd /home/eric/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/catkin_ws/src /home/eric/catkin_ws/src/rosaria /home/eric/catkin_ws/build /home/eric/catkin_ws/build/rosaria /home/eric/catkin_ws/build/rosaria/CMakeFiles/rosaria_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric/amigo-bot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/amigo-bot/catkin_ws/src /home/eric/amigo-bot/catkin_ws/src/rosaria /home/eric/amigo-bot/catkin_ws/build /home/eric/amigo-bot/catkin_ws/build/rosaria /home/eric/amigo-bot/catkin_ws/build/rosaria/CMakeFiles/rosaria_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosaria/CMakeFiles/rosaria_geneus.dir/depend
 

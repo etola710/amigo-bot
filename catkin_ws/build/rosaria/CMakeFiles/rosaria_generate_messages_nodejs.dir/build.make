@@ -43,27 +43,27 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/eric/amigo-bot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/catkin_ws/build
+CMAKE_BINARY_DIR = /home/eric/amigo-bot/catkin_ws/build
 
 # Utility rule file for rosaria_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/progress.make
 
-rosaria/CMakeFiles/rosaria_generate_messages_nodejs: /home/eric/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js
+rosaria/CMakeFiles/rosaria_generate_messages_nodejs: /home/eric/amigo-bot/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js
 
 
-/home/eric/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/eric/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js: /home/eric/catkin_ws/src/rosaria/msg/BumperState.msg
-/home/eric/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from rosaria/BumperState.msg"
-	cd /home/eric/catkin_ws/build/rosaria && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/eric/catkin_ws/src/rosaria/msg/BumperState.msg -Irosaria:/home/eric/catkin_ws/src/rosaria/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p rosaria -o /home/eric/catkin_ws/devel/share/gennodejs/ros/rosaria/msg
+/home/eric/amigo-bot/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/eric/amigo-bot/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js: /home/eric/amigo-bot/catkin_ws/src/rosaria/msg/BumperState.msg
+/home/eric/amigo-bot/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from rosaria/BumperState.msg"
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/eric/amigo-bot/catkin_ws/src/rosaria/msg/BumperState.msg -Irosaria:/home/eric/amigo-bot/catkin_ws/src/rosaria/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p rosaria -o /home/eric/amigo-bot/catkin_ws/devel/share/gennodejs/ros/rosaria/msg
 
 rosaria_generate_messages_nodejs: rosaria/CMakeFiles/rosaria_generate_messages_nodejs
-rosaria_generate_messages_nodejs: /home/eric/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js
+rosaria_generate_messages_nodejs: /home/eric/amigo-bot/catkin_ws/devel/share/gennodejs/ros/rosaria/msg/BumperState.js
 rosaria_generate_messages_nodejs: rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/build.make
 
 .PHONY : rosaria_generate_messages_nodejs
@@ -74,10 +74,10 @@ rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/build: rosaria_generate_
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/build
 
 rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/clean:
-	cd /home/eric/catkin_ws/build/rosaria && $(CMAKE_COMMAND) -P CMakeFiles/rosaria_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria && $(CMAKE_COMMAND) -P CMakeFiles/rosaria_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/clean
 
 rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/depend:
-	cd /home/eric/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/catkin_ws/src /home/eric/catkin_ws/src/rosaria /home/eric/catkin_ws/build /home/eric/catkin_ws/build/rosaria /home/eric/catkin_ws/build/rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric/amigo-bot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/amigo-bot/catkin_ws/src /home/eric/amigo-bot/catkin_ws/src/rosaria /home/eric/amigo-bot/catkin_ws/build /home/eric/amigo-bot/catkin_ws/build/rosaria /home/eric/amigo-bot/catkin_ws/build/rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/depend
 

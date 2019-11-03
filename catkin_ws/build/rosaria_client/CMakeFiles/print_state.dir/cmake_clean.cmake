@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/print_state.dir/src/print_state.cpp.o"
-  "/home/eric/catkin_ws/devel/lib/rosaria_client/print_state.pdb"
-  "/home/eric/catkin_ws/devel/lib/rosaria_client/print_state"
+  "/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/print_state.pdb"
+  "/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/print_state"
 )
 
 # Per-language clean rules from dependency scanning.

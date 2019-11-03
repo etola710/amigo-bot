@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/eric/amigo-bot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/catkin_ws/build
+CMAKE_BINARY_DIR = /home/eric/amigo-bot/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include rosaria_client/CMakeFiles/enable_motors.dir/depend.make
@@ -58,17 +58,17 @@ include rosaria_client/CMakeFiles/enable_motors.dir/progress.make
 include rosaria_client/CMakeFiles/enable_motors.dir/flags.make
 
 rosaria_client/CMakeFiles/enable_motors.dir/src/enable_motors.cpp.o: rosaria_client/CMakeFiles/enable_motors.dir/flags.make
-rosaria_client/CMakeFiles/enable_motors.dir/src/enable_motors.cpp.o: /home/eric/catkin_ws/src/rosaria_client/src/enable_motors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rosaria_client/CMakeFiles/enable_motors.dir/src/enable_motors.cpp.o"
-	cd /home/eric/catkin_ws/build/rosaria_client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enable_motors.dir/src/enable_motors.cpp.o -c /home/eric/catkin_ws/src/rosaria_client/src/enable_motors.cpp
+rosaria_client/CMakeFiles/enable_motors.dir/src/enable_motors.cpp.o: /home/eric/amigo-bot/catkin_ws/src/rosaria_client/src/enable_motors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rosaria_client/CMakeFiles/enable_motors.dir/src/enable_motors.cpp.o"
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria_client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enable_motors.dir/src/enable_motors.cpp.o -c /home/eric/amigo-bot/catkin_ws/src/rosaria_client/src/enable_motors.cpp
 
 rosaria_client/CMakeFiles/enable_motors.dir/src/enable_motors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enable_motors.dir/src/enable_motors.cpp.i"
-	cd /home/eric/catkin_ws/build/rosaria_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/catkin_ws/src/rosaria_client/src/enable_motors.cpp > CMakeFiles/enable_motors.dir/src/enable_motors.cpp.i
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/amigo-bot/catkin_ws/src/rosaria_client/src/enable_motors.cpp > CMakeFiles/enable_motors.dir/src/enable_motors.cpp.i
 
 rosaria_client/CMakeFiles/enable_motors.dir/src/enable_motors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enable_motors.dir/src/enable_motors.cpp.s"
-	cd /home/eric/catkin_ws/build/rosaria_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/catkin_ws/src/rosaria_client/src/enable_motors.cpp -o CMakeFiles/enable_motors.dir/src/enable_motors.cpp.s
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/amigo-bot/catkin_ws/src/rosaria_client/src/enable_motors.cpp -o CMakeFiles/enable_motors.dir/src/enable_motors.cpp.s
 
 rosaria_client/CMakeFiles/enable_motors.dir/src/enable_motors.cpp.o.requires:
 
@@ -88,38 +88,38 @@ enable_motors_OBJECTS = \
 # External object files for target enable_motors
 enable_motors_EXTERNAL_OBJECTS =
 
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: rosaria_client/CMakeFiles/enable_motors.dir/src/enable_motors.cpp.o
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: rosaria_client/CMakeFiles/enable_motors.dir/build.make
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libtf.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libactionlib.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libroscpp.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libtf2.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/librosconsole.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/librostime.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libcpp_common.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors: rosaria_client/CMakeFiles/enable_motors.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors"
-	cd /home/eric/catkin_ws/build/rosaria_client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/enable_motors.dir/link.txt --verbose=$(VERBOSE)
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: rosaria_client/CMakeFiles/enable_motors.dir/src/enable_motors.cpp.o
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: rosaria_client/CMakeFiles/enable_motors.dir/build.make
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libtf.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libactionlib.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libroscpp.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libtf2.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/librosconsole.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/librostime.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /opt/ros/kinetic/lib/libcpp_common.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors: rosaria_client/CMakeFiles/enable_motors.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors"
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria_client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/enable_motors.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-rosaria_client/CMakeFiles/enable_motors.dir/build: /home/eric/catkin_ws/devel/lib/rosaria_client/enable_motors
+rosaria_client/CMakeFiles/enable_motors.dir/build: /home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/enable_motors
 
 .PHONY : rosaria_client/CMakeFiles/enable_motors.dir/build
 
@@ -128,10 +128,10 @@ rosaria_client/CMakeFiles/enable_motors.dir/requires: rosaria_client/CMakeFiles/
 .PHONY : rosaria_client/CMakeFiles/enable_motors.dir/requires
 
 rosaria_client/CMakeFiles/enable_motors.dir/clean:
-	cd /home/eric/catkin_ws/build/rosaria_client && $(CMAKE_COMMAND) -P CMakeFiles/enable_motors.dir/cmake_clean.cmake
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria_client && $(CMAKE_COMMAND) -P CMakeFiles/enable_motors.dir/cmake_clean.cmake
 .PHONY : rosaria_client/CMakeFiles/enable_motors.dir/clean
 
 rosaria_client/CMakeFiles/enable_motors.dir/depend:
-	cd /home/eric/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/catkin_ws/src /home/eric/catkin_ws/src/rosaria_client /home/eric/catkin_ws/build /home/eric/catkin_ws/build/rosaria_client /home/eric/catkin_ws/build/rosaria_client/CMakeFiles/enable_motors.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric/amigo-bot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/amigo-bot/catkin_ws/src /home/eric/amigo-bot/catkin_ws/src/rosaria_client /home/eric/amigo-bot/catkin_ws/build /home/eric/amigo-bot/catkin_ws/build/rosaria_client /home/eric/amigo-bot/catkin_ws/build/rosaria_client/CMakeFiles/enable_motors.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosaria_client/CMakeFiles/enable_motors.dir/depend
 

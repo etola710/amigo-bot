@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RosAria.dir/RosAria.cpp.o"
   "CMakeFiles/RosAria.dir/LaserPublisher.cpp.o"
-  "/home/eric/catkin_ws/devel/lib/rosaria/RosAria.pdb"
-  "/home/eric/catkin_ws/devel/lib/rosaria/RosAria"
+  "/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria/RosAria.pdb"
+  "/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria/RosAria"
 )
 
 # Per-language clean rules from dependency scanning.

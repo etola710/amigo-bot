@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/teleop.dir/src/teleop.cpp.o"
-  "/home/eric/catkin_ws/devel/lib/rosaria_client/teleop.pdb"
-  "/home/eric/catkin_ws/devel/lib/rosaria_client/teleop"
+  "/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/teleop.pdb"
+  "/home/eric/amigo-bot/catkin_ws/devel/lib/rosaria_client/teleop"
 )
 
 # Per-language clean rules from dependency scanning.

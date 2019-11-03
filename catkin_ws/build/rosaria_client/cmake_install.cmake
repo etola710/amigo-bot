@@ -1,8 +1,8 @@
-# Install script for directory: /home/eric/catkin_ws/src/rosaria_client
+# Install script for directory: /home/eric/amigo-bot/catkin_ws/src/rosaria_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/eric/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/eric/amigo-bot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/eric/catkin_ws/build/rosaria_client/catkin_generated/installspace/rosaria_client.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/eric/amigo-bot/catkin_ws/build/rosaria_client/catkin_generated/installspace/rosaria_client.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosaria_client/cmake" TYPE FILE FILES
-    "/home/eric/catkin_ws/build/rosaria_client/catkin_generated/installspace/rosaria_clientConfig.cmake"
-    "/home/eric/catkin_ws/build/rosaria_client/catkin_generated/installspace/rosaria_clientConfig-version.cmake"
+    "/home/eric/amigo-bot/catkin_ws/build/rosaria_client/catkin_generated/installspace/rosaria_clientConfig.cmake"
+    "/home/eric/amigo-bot/catkin_ws/build/rosaria_client/catkin_generated/installspace/rosaria_clientConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosaria_client" TYPE FILE FILES "/home/eric/catkin_ws/src/rosaria_client/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosaria_client" TYPE FILE FILES "/home/eric/amigo-bot/catkin_ws/src/rosaria_client/package.xml")
 endif()
 

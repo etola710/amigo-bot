@@ -43,34 +43,34 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/eric/amigo-bot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/catkin_ws/build
+CMAKE_BINARY_DIR = /home/eric/amigo-bot/catkin_ws/build
 
 # Utility rule file for rosaria_generate_messages_py.
 
 # Include the progress variables for this target.
 include rosaria/CMakeFiles/rosaria_generate_messages_py.dir/progress.make
 
-rosaria/CMakeFiles/rosaria_generate_messages_py: /home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py
-rosaria/CMakeFiles/rosaria_generate_messages_py: /home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py
+rosaria/CMakeFiles/rosaria_generate_messages_py: /home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py
+rosaria/CMakeFiles/rosaria_generate_messages_py: /home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py
 
 
-/home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py: /home/eric/catkin_ws/src/rosaria/msg/BumperState.msg
-/home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG rosaria/BumperState"
-	cd /home/eric/catkin_ws/build/rosaria && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/eric/catkin_ws/src/rosaria/msg/BumperState.msg -Irosaria:/home/eric/catkin_ws/src/rosaria/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p rosaria -o /home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg
+/home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py: /home/eric/amigo-bot/catkin_ws/src/rosaria/msg/BumperState.msg
+/home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG rosaria/BumperState"
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/eric/amigo-bot/catkin_ws/src/rosaria/msg/BumperState.msg -Irosaria:/home/eric/amigo-bot/catkin_ws/src/rosaria/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p rosaria -o /home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg
 
-/home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py: /home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for rosaria"
-	cd /home/eric/catkin_ws/build/rosaria && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg --initpy
+/home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py: /home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for rosaria"
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg --initpy
 
 rosaria_generate_messages_py: rosaria/CMakeFiles/rosaria_generate_messages_py
-rosaria_generate_messages_py: /home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py
-rosaria_generate_messages_py: /home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py
+rosaria_generate_messages_py: /home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py
+rosaria_generate_messages_py: /home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py
 rosaria_generate_messages_py: rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build.make
 
 .PHONY : rosaria_generate_messages_py
@@ -81,10 +81,10 @@ rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build: rosaria_generate_mess
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build
 
 rosaria/CMakeFiles/rosaria_generate_messages_py.dir/clean:
-	cd /home/eric/catkin_ws/build/rosaria && $(CMAKE_COMMAND) -P CMakeFiles/rosaria_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria && $(CMAKE_COMMAND) -P CMakeFiles/rosaria_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_py.dir/clean
 
 rosaria/CMakeFiles/rosaria_generate_messages_py.dir/depend:
-	cd /home/eric/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/catkin_ws/src /home/eric/catkin_ws/src/rosaria /home/eric/catkin_ws/build /home/eric/catkin_ws/build/rosaria /home/eric/catkin_ws/build/rosaria/CMakeFiles/rosaria_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric/amigo-bot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/amigo-bot/catkin_ws/src /home/eric/amigo-bot/catkin_ws/src/rosaria /home/eric/amigo-bot/catkin_ws/build /home/eric/amigo-bot/catkin_ws/build/rosaria /home/eric/amigo-bot/catkin_ws/build/rosaria/CMakeFiles/rosaria_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_py.dir/depend
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/eric/catkin_ws/devel/include/rosaria/BumperState.h
+/home/eric/amigo-bot/catkin_ws/devel/include/rosaria/BumperState.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/eric/catkin_ws/devel/include/rosaria/RosAriaConfig.h
+/home/eric/amigo-bot/catkin_ws/devel/include/rosaria/RosAriaConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -42,29 +42,29 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/eric/catkin_ws/src/rosaria/ArTimeToROSTime.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/ArTimeToROSTime.h
 ros/ros.h
 -
 ariaUtil.h
-/home/eric/catkin_ws/src/rosaria/ariaUtil.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/ariaUtil.h
 Aria/ariaUtil.h
-/home/eric/catkin_ws/src/rosaria/Aria/ariaUtil.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/Aria/ariaUtil.h
 
-/home/eric/catkin_ws/src/rosaria/LaserPublisher.cpp
+/home/eric/amigo-bot/catkin_ws/src/rosaria/LaserPublisher.cpp
 Aria.h
 -
 Aria/Aria.h
 -
 LaserPublisher.h
-/home/eric/catkin_ws/src/rosaria/LaserPublisher.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/LaserPublisher.h
 ArTimeToROSTime.h
-/home/eric/catkin_ws/src/rosaria/ArTimeToROSTime.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/ArTimeToROSTime.h
 math.h
 -
 boost/algorithm/string.hpp
 -
 
-/home/eric/catkin_ws/src/rosaria/LaserPublisher.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/LaserPublisher.h
 ros/ros.h
 -
 sensor_msgs/LaserScan.h
@@ -74,7 +74,7 @@ sensor_msgs/PointCloud.h
 tf/transform_broadcaster.h
 -
 
-/home/eric/catkin_ws/src/rosaria/RosAria.cpp
+/home/eric/amigo-bot/catkin_ws/src/rosaria/RosAria.cpp
 stdio.h
 -
 math.h
@@ -84,13 +84,13 @@ Aria.h
 Aria/Aria.h
 -
 ros/ros.h
-/home/eric/catkin_ws/src/rosaria/ros/ros.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/ros/ros.h
 geometry_msgs/Twist.h
-/home/eric/catkin_ws/src/rosaria/geometry_msgs/Twist.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/geometry_msgs/Twist.h
 geometry_msgs/Pose.h
-/home/eric/catkin_ws/src/rosaria/geometry_msgs/Pose.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/geometry_msgs/Pose.h
 geometry_msgs/PoseStamped.h
-/home/eric/catkin_ws/src/rosaria/geometry_msgs/PoseStamped.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/geometry_msgs/PoseStamped.h
 sensor_msgs/PointCloud.h
 -
 sensor_msgs/PointCloud2.h
@@ -98,33 +98,33 @@ sensor_msgs/PointCloud2.h
 sensor_msgs/point_cloud_conversion.h
 -
 nav_msgs/Odometry.h
-/home/eric/catkin_ws/src/rosaria/nav_msgs/Odometry.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/nav_msgs/Odometry.h
 rosaria/BumperState.h
-/home/eric/catkin_ws/src/rosaria/rosaria/BumperState.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/rosaria/BumperState.h
 tf/tf.h
-/home/eric/catkin_ws/src/rosaria/tf/tf.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/tf/tf.h
 tf/transform_listener.h
-/home/eric/catkin_ws/src/rosaria/tf/transform_listener.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/tf/transform_listener.h
 tf/transform_broadcaster.h
 -
 tf/transform_datatypes.h
-/home/eric/catkin_ws/src/rosaria/tf/transform_datatypes.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/tf/transform_datatypes.h
 dynamic_reconfigure/server.h
 -
 rosaria/RosAriaConfig.h
 -
 std_msgs/Float64.h
-/home/eric/catkin_ws/src/rosaria/std_msgs/Float64.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/std_msgs/Float64.h
 std_msgs/Float32.h
-/home/eric/catkin_ws/src/rosaria/std_msgs/Float32.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/std_msgs/Float32.h
 std_msgs/Int8.h
-/home/eric/catkin_ws/src/rosaria/std_msgs/Int8.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/std_msgs/Int8.h
 std_msgs/Bool.h
-/home/eric/catkin_ws/src/rosaria/std_msgs/Bool.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/std_msgs/Bool.h
 std_srvs/Empty.h
-/home/eric/catkin_ws/src/rosaria/std_srvs/Empty.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/std_srvs/Empty.h
 LaserPublisher.h
-/home/eric/catkin_ws/src/rosaria/LaserPublisher.h
+/home/eric/amigo-bot/catkin_ws/src/rosaria/LaserPublisher.h
 sstream
 -
 

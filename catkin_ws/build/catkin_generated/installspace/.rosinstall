@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/eric/catkin_ws/install/setup.sh
+    local-name: /home/eric/amigo-bot/catkin_ws/install/setup.sh

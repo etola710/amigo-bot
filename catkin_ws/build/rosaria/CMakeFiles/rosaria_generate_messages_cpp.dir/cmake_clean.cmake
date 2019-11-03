@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosaria_generate_messages_cpp"
-  "/home/eric/catkin_ws/devel/include/rosaria/BumperState.h"
+  "/home/eric/amigo-bot/catkin_ws/devel/include/rosaria/BumperState.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/eric/catkin_ws/src/rosaria/LaserPublisher.cpp" "/home/eric/catkin_ws/build/rosaria/CMakeFiles/RosAria.dir/LaserPublisher.cpp.o"
-  "/home/eric/catkin_ws/src/rosaria/RosAria.cpp" "/home/eric/catkin_ws/build/rosaria/CMakeFiles/RosAria.dir/RosAria.cpp.o"
+  "/home/eric/amigo-bot/catkin_ws/src/rosaria/LaserPublisher.cpp" "/home/eric/amigo-bot/catkin_ws/build/rosaria/CMakeFiles/RosAria.dir/LaserPublisher.cpp.o"
+  "/home/eric/amigo-bot/catkin_ws/src/rosaria/RosAria.cpp" "/home/eric/amigo-bot/catkin_ws/build/rosaria/CMakeFiles/RosAria.dir/RosAria.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/eric/catkin_ws/devel/include"
+  "/home/eric/amigo-bot/catkin_ws/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/local/Aria/include"

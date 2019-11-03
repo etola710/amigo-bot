@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/eric/catkin_ws/src
-# Build directory: /home/eric/catkin_ws/build
+# Source directory: /home/eric/amigo-bot/catkin_ws/src
+# Build directory: /home/eric/amigo-bot/catkin_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

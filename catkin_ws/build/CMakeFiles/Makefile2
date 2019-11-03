@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/eric/amigo-bot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/catkin_ws/build
+CMAKE_BINARY_DIR = /home/eric/amigo-bot/catkin_ws/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/clean_test_results.dir
@@ -66,14 +66,14 @@ CMAKE_BINARY_DIR = /home/eric/catkin_ws/build
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target clean_test_results"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -98,14 +98,14 @@ clean: CMakeFiles/clean_test_results.dir/clean
 CMakeFiles/run_tests.dir/all:
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -130,14 +130,14 @@ clean: CMakeFiles/run_tests.dir/clean
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target download_extra_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -162,14 +162,14 @@ clean: CMakeFiles/download_extra_data.dir/clean
 CMakeFiles/tests.dir/all:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -194,14 +194,14 @@ clean: CMakeFiles/tests.dir/clean
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -246,14 +246,14 @@ gtest/preinstall: gtest/gtest/preinstall
 gtest/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=6,7,8 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=6,7,8 "Built target gmock"
 .PHONY : gtest/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -278,14 +278,14 @@ clean: gtest/CMakeFiles/gmock.dir/clean
 gtest/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=9,10,11,12 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=9,10,11,12 "Built target gmock_main"
 .PHONY : gtest/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -329,14 +329,14 @@ gtest/gtest/preinstall:
 gtest/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=15,16 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=15,16 "Built target gtest"
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/gtest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -361,14 +361,14 @@ clean: gtest/gtest/CMakeFiles/gtest.dir/clean
 gtest/gtest/CMakeFiles/gtest_main.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=17,18 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=17,18 "Built target gtest_main"
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/gtest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -485,14 +485,14 @@ rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/all: rosaria/CMakeFiles/
 rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/all: rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=28 "Built target rosaria_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=28 "Built target rosaria_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -517,14 +517,14 @@ clean: rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/rosaria_gencpp.dir/all: rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_gencpp.dir/build.make rosaria/CMakeFiles/rosaria_gencpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_gencpp.dir/build.make rosaria/CMakeFiles/rosaria_gencpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_gencpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_gencpp"
 .PHONY : rosaria/CMakeFiles/rosaria_gencpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_gencpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_gencpp.dir/rule
 
 # Convenience name for target.
@@ -551,14 +551,14 @@ rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/all: rosaria/CMakeFiles/geo
 rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/all: rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=24 "Built target rosaria_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=24 "Built target rosaria_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -583,14 +583,14 @@ clean: rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/build.make rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/build.make rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target _rosaria_generate_messages_check_deps_BumperState"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target _rosaria_generate_messages_check_deps_BumperState"
 .PHONY : rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/rule
 
 # Convenience name for target.
@@ -616,7 +616,7 @@ rosaria/CMakeFiles/RosAria.dir/all: rosaria/CMakeFiles/rosaria_gencpp.dir/all
 rosaria/CMakeFiles/RosAria.dir/all: rosaria/CMakeFiles/rosaria_gencfg.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=1,2,3 "Built target RosAria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=1,2,3 "Built target RosAria"
 .PHONY : rosaria/CMakeFiles/RosAria.dir/all
 
 # Include target in all.
@@ -626,9 +626,9 @@ all: rosaria/CMakeFiles/RosAria.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/RosAria.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/RosAria.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/RosAria.dir/rule
 
 # Convenience name for target.
@@ -653,14 +653,14 @@ clean: rosaria/CMakeFiles/RosAria.dir/clean
 rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_gencfg"
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -685,14 +685,14 @@ clean: rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -717,14 +717,14 @@ clean: rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -749,14 +749,14 @@ clean: rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -781,14 +781,14 @@ clean: rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -813,14 +813,14 @@ clean: rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -845,14 +845,14 @@ clean: rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -877,14 +877,14 @@ clean: rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/rosaria_genpy.dir/all: rosaria/CMakeFiles/rosaria_generate_messages_py.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_genpy.dir/build.make rosaria/CMakeFiles/rosaria_genpy.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_genpy.dir/build.make rosaria/CMakeFiles/rosaria_genpy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_genpy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_genpy"
 .PHONY : rosaria/CMakeFiles/rosaria_genpy.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_genpy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_genpy.dir/rule
 
 # Convenience name for target.
@@ -909,14 +909,14 @@ clean: rosaria/CMakeFiles/rosaria_genpy.dir/clean
 rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -941,14 +941,14 @@ clean: rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -973,14 +973,14 @@ clean: rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1005,14 +1005,14 @@ clean: rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/_catkin_empty_exported_target.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/_catkin_empty_exported_target.dir/build.make rosaria/CMakeFiles/_catkin_empty_exported_target.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/_catkin_empty_exported_target.dir/build.make rosaria/CMakeFiles/_catkin_empty_exported_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
 .PHONY : rosaria/CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -1037,14 +1037,14 @@ clean: rosaria/CMakeFiles/_catkin_empty_exported_target.dir/clean
 rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1069,14 +1069,14 @@ clean: rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/actionlib_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_py.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_py.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/actionlib_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1101,14 +1101,14 @@ clean: rosaria/CMakeFiles/actionlib_generate_messages_py.dir/clean
 rosaria/CMakeFiles/rosaria_genlisp.dir/all: rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_genlisp.dir/build.make rosaria/CMakeFiles/rosaria_genlisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_genlisp.dir/build.make rosaria/CMakeFiles/rosaria_genlisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_genlisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_genlisp"
 .PHONY : rosaria/CMakeFiles/rosaria_genlisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_genlisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_genlisp.dir/rule
 
 # Convenience name for target.
@@ -1133,14 +1133,14 @@ clean: rosaria/CMakeFiles/rosaria_genlisp.dir/clean
 rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1167,14 +1167,14 @@ rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/all: rosaria/CMakeFiles/std
 rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/all: rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=25,26 "Built target rosaria_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=25,26 "Built target rosaria_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1199,14 +1199,14 @@ clean: rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1231,14 +1231,14 @@ clean: rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1263,14 +1263,14 @@ clean: rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1295,14 +1295,14 @@ clean: rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1327,14 +1327,14 @@ clean: rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/clean
 rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1359,14 +1359,14 @@ clean: rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1391,14 +1391,14 @@ clean: rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1423,14 +1423,14 @@ clean: rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1455,14 +1455,14 @@ clean: rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1487,14 +1487,14 @@ clean: rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/tf_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_eus.dir/build.make rosaria/CMakeFiles/tf_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_eus.dir/build.make rosaria/CMakeFiles/tf_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1519,14 +1519,14 @@ clean: rosaria/CMakeFiles/tf_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1551,14 +1551,14 @@ clean: rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1583,14 +1583,14 @@ clean: rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1615,14 +1615,14 @@ clean: rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1649,14 +1649,14 @@ rosaria/CMakeFiles/rosaria_generate_messages_py.dir/all: rosaria/CMakeFiles/std_
 rosaria/CMakeFiles/rosaria_generate_messages_py.dir/all: rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=29,30 "Built target rosaria_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=29,30 "Built target rosaria_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1681,14 +1681,14 @@ clean: rosaria/CMakeFiles/rosaria_generate_messages_py.dir/clean
 rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1713,14 +1713,14 @@ clean: rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1749,7 +1749,7 @@ rosaria/CMakeFiles/rosaria_generate_messages.dir/all: rosaria/CMakeFiles/rosaria
 rosaria/CMakeFiles/rosaria_generate_messages.dir/all: rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_generate_messages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_generate_messages"
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages.dir/all
 
 # Include target in all.
@@ -1759,9 +1759,9 @@ all: rosaria/CMakeFiles/rosaria_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -1786,14 +1786,14 @@ clean: rosaria/CMakeFiles/rosaria_generate_messages.dir/clean
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1818,14 +1818,14 @@ clean: rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1850,14 +1850,14 @@ clean: rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1882,14 +1882,14 @@ clean: rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1916,14 +1916,14 @@ rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/all: rosaria/CMakeFiles/st
 rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/all: rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=27 "Built target rosaria_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=27 "Built target rosaria_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1948,7 +1948,7 @@ clean: rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/rosaria_gencfg.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_gencfg.dir/build.make rosaria/CMakeFiles/rosaria_gencfg.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_gencfg.dir/build.make rosaria/CMakeFiles/rosaria_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=23 "Built target rosaria_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=23 "Built target rosaria_gencfg"
 .PHONY : rosaria/CMakeFiles/rosaria_gencfg.dir/all
 
 # Include target in all.
@@ -1958,9 +1958,9 @@ all: rosaria/CMakeFiles/rosaria_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_gencfg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_gencfg.dir/rule
 
 # Convenience name for target.
@@ -1985,14 +1985,14 @@ clean: rosaria/CMakeFiles/rosaria_gencfg.dir/clean
 rosaria/CMakeFiles/tf_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/tf_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/tf_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/tf_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2017,14 +2017,14 @@ clean: rosaria/CMakeFiles/tf_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2049,14 +2049,14 @@ clean: rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/rosaria_gennodejs.dir/all: rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_gennodejs.dir/build.make rosaria/CMakeFiles/rosaria_gennodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_gennodejs.dir/build.make rosaria/CMakeFiles/rosaria_gennodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_gennodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_gennodejs"
 .PHONY : rosaria/CMakeFiles/rosaria_gennodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_gennodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -2081,14 +2081,14 @@ clean: rosaria/CMakeFiles/rosaria_gennodejs.dir/clean
 rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2113,14 +2113,14 @@ clean: rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2145,14 +2145,14 @@ clean: rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2177,14 +2177,14 @@ clean: rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2209,14 +2209,14 @@ clean: rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2241,14 +2241,14 @@ clean: rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2273,14 +2273,14 @@ clean: rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2305,14 +2305,14 @@ clean: rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2337,14 +2337,14 @@ clean: rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2369,14 +2369,14 @@ clean: rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2401,14 +2401,14 @@ clean: rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2433,14 +2433,14 @@ clean: rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 rosaria/CMakeFiles/tf_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/tf_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/tf_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/tf_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2465,14 +2465,14 @@ clean: rosaria/CMakeFiles/tf_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/roscpp_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_py.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_py.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2497,14 +2497,14 @@ clean: rosaria/CMakeFiles/roscpp_generate_messages_py.dir/clean
 rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2529,14 +2529,14 @@ clean: rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/clean
 rosaria/CMakeFiles/tf_generate_messages_py.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_py.dir/build.make rosaria/CMakeFiles/tf_generate_messages_py.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_py.dir/build.make rosaria/CMakeFiles/tf_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target tf_generate_messages_py"
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/tf_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -2561,14 +2561,14 @@ clean: rosaria/CMakeFiles/tf_generate_messages_py.dir/clean
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2593,14 +2593,14 @@ clean: rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_lisp"
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2625,14 +2625,14 @@ clean: rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/clean
 rosaria/CMakeFiles/rosaria_geneus.dir/all: rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/all
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_geneus.dir/build.make rosaria/CMakeFiles/rosaria_geneus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/rosaria_geneus.dir/build.make rosaria/CMakeFiles/rosaria_geneus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_geneus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target rosaria_geneus"
 .PHONY : rosaria/CMakeFiles/rosaria_geneus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/rosaria_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_geneus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/rosaria_geneus.dir/rule
 
 # Convenience name for target.
@@ -2657,14 +2657,14 @@ clean: rosaria/CMakeFiles/rosaria_geneus.dir/clean
 rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2689,14 +2689,14 @@ clean: rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_cpp"
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2721,14 +2721,14 @@ clean: rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2753,14 +2753,14 @@ clean: rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/all:
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
 	$(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2815,7 +2815,7 @@ rosaria_client/preinstall:
 rosaria_client/CMakeFiles/spin_clockwise.dir/all:
 	$(MAKE) -f rosaria_client/CMakeFiles/spin_clockwise.dir/build.make rosaria_client/CMakeFiles/spin_clockwise.dir/depend
 	$(MAKE) -f rosaria_client/CMakeFiles/spin_clockwise.dir/build.make rosaria_client/CMakeFiles/spin_clockwise.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=31,32 "Built target spin_clockwise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=31,32 "Built target spin_clockwise"
 .PHONY : rosaria_client/CMakeFiles/spin_clockwise.dir/all
 
 # Include target in all.
@@ -2825,9 +2825,9 @@ all: rosaria_client/CMakeFiles/spin_clockwise.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria_client/CMakeFiles/spin_clockwise.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria_client/CMakeFiles/spin_clockwise.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria_client/CMakeFiles/spin_clockwise.dir/rule
 
 # Convenience name for target.
@@ -2852,7 +2852,7 @@ clean: rosaria_client/CMakeFiles/spin_clockwise.dir/clean
 rosaria_client/CMakeFiles/interface.dir/all:
 	$(MAKE) -f rosaria_client/CMakeFiles/interface.dir/build.make rosaria_client/CMakeFiles/interface.dir/depend
 	$(MAKE) -f rosaria_client/CMakeFiles/interface.dir/build.make rosaria_client/CMakeFiles/interface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=19,20 "Built target interface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=19,20 "Built target interface"
 .PHONY : rosaria_client/CMakeFiles/interface.dir/all
 
 # Include target in all.
@@ -2862,9 +2862,9 @@ all: rosaria_client/CMakeFiles/interface.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria_client/CMakeFiles/interface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria_client/CMakeFiles/interface.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria_client/CMakeFiles/interface.dir/rule
 
 # Convenience name for target.
@@ -2889,7 +2889,7 @@ clean: rosaria_client/CMakeFiles/interface.dir/clean
 rosaria_client/CMakeFiles/spin_counterclockwise.dir/all:
 	$(MAKE) -f rosaria_client/CMakeFiles/spin_counterclockwise.dir/build.make rosaria_client/CMakeFiles/spin_counterclockwise.dir/depend
 	$(MAKE) -f rosaria_client/CMakeFiles/spin_counterclockwise.dir/build.make rosaria_client/CMakeFiles/spin_counterclockwise.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=33,34 "Built target spin_counterclockwise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=33,34 "Built target spin_counterclockwise"
 .PHONY : rosaria_client/CMakeFiles/spin_counterclockwise.dir/all
 
 # Include target in all.
@@ -2899,9 +2899,9 @@ all: rosaria_client/CMakeFiles/spin_counterclockwise.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria_client/CMakeFiles/spin_counterclockwise.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria_client/CMakeFiles/spin_counterclockwise.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria_client/CMakeFiles/spin_counterclockwise.dir/rule
 
 # Convenience name for target.
@@ -2926,7 +2926,7 @@ clean: rosaria_client/CMakeFiles/spin_counterclockwise.dir/clean
 rosaria_client/CMakeFiles/go_three_second.dir/all:
 	$(MAKE) -f rosaria_client/CMakeFiles/go_three_second.dir/build.make rosaria_client/CMakeFiles/go_three_second.dir/depend
 	$(MAKE) -f rosaria_client/CMakeFiles/go_three_second.dir/build.make rosaria_client/CMakeFiles/go_three_second.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=13,14 "Built target go_three_second"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=13,14 "Built target go_three_second"
 .PHONY : rosaria_client/CMakeFiles/go_three_second.dir/all
 
 # Include target in all.
@@ -2936,9 +2936,9 @@ all: rosaria_client/CMakeFiles/go_three_second.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria_client/CMakeFiles/go_three_second.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria_client/CMakeFiles/go_three_second.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria_client/CMakeFiles/go_three_second.dir/rule
 
 # Convenience name for target.
@@ -2963,7 +2963,7 @@ clean: rosaria_client/CMakeFiles/go_three_second.dir/clean
 rosaria_client/CMakeFiles/print_state.dir/all:
 	$(MAKE) -f rosaria_client/CMakeFiles/print_state.dir/build.make rosaria_client/CMakeFiles/print_state.dir/depend
 	$(MAKE) -f rosaria_client/CMakeFiles/print_state.dir/build.make rosaria_client/CMakeFiles/print_state.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=21,22 "Built target print_state"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=21,22 "Built target print_state"
 .PHONY : rosaria_client/CMakeFiles/print_state.dir/all
 
 # Include target in all.
@@ -2973,9 +2973,9 @@ all: rosaria_client/CMakeFiles/print_state.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria_client/CMakeFiles/print_state.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria_client/CMakeFiles/print_state.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria_client/CMakeFiles/print_state.dir/rule
 
 # Convenience name for target.
@@ -3000,7 +3000,7 @@ clean: rosaria_client/CMakeFiles/print_state.dir/clean
 rosaria_client/CMakeFiles/enable_motors.dir/all:
 	$(MAKE) -f rosaria_client/CMakeFiles/enable_motors.dir/build.make rosaria_client/CMakeFiles/enable_motors.dir/depend
 	$(MAKE) -f rosaria_client/CMakeFiles/enable_motors.dir/build.make rosaria_client/CMakeFiles/enable_motors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=4,5 "Built target enable_motors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=4,5 "Built target enable_motors"
 .PHONY : rosaria_client/CMakeFiles/enable_motors.dir/all
 
 # Include target in all.
@@ -3010,9 +3010,9 @@ all: rosaria_client/CMakeFiles/enable_motors.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria_client/CMakeFiles/enable_motors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria_client/CMakeFiles/enable_motors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria_client/CMakeFiles/enable_motors.dir/rule
 
 # Convenience name for target.
@@ -3037,7 +3037,7 @@ clean: rosaria_client/CMakeFiles/enable_motors.dir/clean
 rosaria_client/CMakeFiles/teleop.dir/all:
 	$(MAKE) -f rosaria_client/CMakeFiles/teleop.dir/build.make rosaria_client/CMakeFiles/teleop.dir/depend
 	$(MAKE) -f rosaria_client/CMakeFiles/teleop.dir/build.make rosaria_client/CMakeFiles/teleop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/catkin_ws/build/CMakeFiles --progress-num=35,36 "Built target teleop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eric/amigo-bot/catkin_ws/build/CMakeFiles --progress-num=35,36 "Built target teleop"
 .PHONY : rosaria_client/CMakeFiles/teleop.dir/all
 
 # Include target in all.
@@ -3047,9 +3047,9 @@ all: rosaria_client/CMakeFiles/teleop.dir/all
 
 # Build rule for subdir invocation for target.
 rosaria_client/CMakeFiles/teleop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 rosaria_client/CMakeFiles/teleop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : rosaria_client/CMakeFiles/teleop.dir/rule
 
 # Convenience name for target.

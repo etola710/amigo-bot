@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/eric/amigo-bot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/catkin_ws/build
+CMAKE_BINARY_DIR = /home/eric/amigo-bot/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/eric/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles /home/eric/catkin_ws/build/rosaria/CMakeFiles/progress.marks
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/catkin_ws/build/CMakeFiles 0
+	cd /home/eric/amigo-bot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles /home/eric/amigo-bot/catkin_ws/build/rosaria/CMakeFiles/progress.marks
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eric/amigo-bot/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/clean
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/preinstall
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/preinstall
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/eric/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/eric/amigo-bot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ rosaria_generate_messages_nodejs: rosaria/CMakeFiles/rosaria_generate_messages_n
 
 # fast build rule for target.
 rosaria_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_nodejs.dir/build
 .PHONY : rosaria_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_gencpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_gencpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_gencpp.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_gencpp.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ rosaria_gencpp: rosaria/CMakeFiles/rosaria_gencpp.dir/rule
 
 # fast build rule for target.
 rosaria_gencpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_gencpp.dir/build.make rosaria/CMakeFiles/rosaria_gencpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_gencpp.dir/build.make rosaria/CMakeFiles/rosaria_gencpp.dir/build
 .PHONY : rosaria_gencpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ rosaria_generate_messages_cpp: rosaria/CMakeFiles/rosaria_generate_messages_cpp.
 
 # fast build rule for target.
 rosaria_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_cpp.dir/build
 .PHONY : rosaria_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/rule
 .PHONY : rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ _rosaria_generate_messages_check_deps_BumperState: rosaria/CMakeFiles/_rosaria_g
 
 # fast build rule for target.
 _rosaria_generate_messages_check_deps_BumperState/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/build.make rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/build.make rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/build
 .PHONY : _rosaria_generate_messages_check_deps_BumperState/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/RosAria.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/RosAria.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/RosAria.dir/rule
 .PHONY : rosaria/CMakeFiles/RosAria.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ RosAria: rosaria/CMakeFiles/RosAria.dir/rule
 
 # fast build rule for target.
 RosAria/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/build
 .PHONY : RosAria/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ dynamic_reconfigure_gencfg: rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/ru
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ dynamic_reconfigure_generate_messages_py: rosaria/CMakeFiles/dynamic_reconfigure
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ dynamic_reconfigure_generate_messages_lisp: rosaria/CMakeFiles/dynamic_reconfigu
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ dynamic_reconfigure_generate_messages_eus: rosaria/CMakeFiles/dynamic_reconfigur
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ dynamic_reconfigure_generate_messages_cpp: rosaria/CMakeFiles/dynamic_reconfigur
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ tf2_msgs_generate_messages_nodejs: rosaria/CMakeFiles/tf2_msgs_generate_messages
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ tf2_msgs_generate_messages_lisp: rosaria/CMakeFiles/tf2_msgs_generate_messages_l
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_genpy.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_genpy.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_genpy.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_genpy.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ rosaria_genpy: rosaria/CMakeFiles/rosaria_genpy.dir/rule
 
 # fast build rule for target.
 rosaria_genpy/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_genpy.dir/build.make rosaria/CMakeFiles/rosaria_genpy.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_genpy.dir/build.make rosaria/CMakeFiles/rosaria_genpy.dir/build
 .PHONY : rosaria_genpy/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ tf2_msgs_generate_messages_eus: rosaria/CMakeFiles/tf2_msgs_generate_messages_eu
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ tf2_msgs_generate_messages_cpp: rosaria/CMakeFiles/tf2_msgs_generate_messages_cp
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ dynamic_reconfigure_generate_messages_nodejs: rosaria/CMakeFiles/dynamic_reconfi
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : rosaria/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ _catkin_empty_exported_target: rosaria/CMakeFiles/_catkin_empty_exported_target.
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/_catkin_empty_exported_target.dir/build.make rosaria/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/_catkin_empty_exported_target.dir/build.make rosaria/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ nav_msgs_generate_messages_nodejs: rosaria/CMakeFiles/nav_msgs_generate_messages
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ actionlib_generate_messages_py: rosaria/CMakeFiles/actionlib_generate_messages_p
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_py.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_py.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_genlisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_genlisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_genlisp.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_genlisp.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ rosaria_genlisp: rosaria/CMakeFiles/rosaria_genlisp.dir/rule
 
 # fast build rule for target.
 rosaria_genlisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_genlisp.dir/build.make rosaria/CMakeFiles/rosaria_genlisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_genlisp.dir/build.make rosaria/CMakeFiles/rosaria_genlisp.dir/build
 .PHONY : rosaria_genlisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ nav_msgs_generate_messages_lisp: rosaria/CMakeFiles/nav_msgs_generate_messages_l
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ rosaria_generate_messages_eus: rosaria/CMakeFiles/rosaria_generate_messages_eus.
 
 # fast build rule for target.
 rosaria_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_eus.dir/build
 .PHONY : rosaria_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ std_msgs_generate_messages_lisp: rosaria/CMakeFiles/std_msgs_generate_messages_l
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ geometry_msgs_generate_messages_lisp: rosaria/CMakeFiles/geometry_msgs_generate_
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -537,12 +537,12 @@ nav_msgs_generate_messages_eus: rosaria/CMakeFiles/nav_msgs_generate_messages_eu
 
 # fast build rule for target.
 nav_msgs_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
 .PHONY : nav_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ nav_msgs_generate_messages_py: rosaria/CMakeFiles/nav_msgs_generate_messages_py.
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -567,12 +567,12 @@ std_msgs_generate_messages_py: rosaria/CMakeFiles/std_msgs_generate_messages_py.
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -582,12 +582,12 @@ std_msgs_generate_messages_eus: rosaria/CMakeFiles/std_msgs_generate_messages_eu
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -597,12 +597,12 @@ roscpp_generate_messages_lisp: rosaria/CMakeFiles/roscpp_generate_messages_lisp.
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -612,12 +612,12 @@ roscpp_generate_messages_nodejs: rosaria/CMakeFiles/roscpp_generate_messages_nod
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -627,12 +627,12 @@ rosgraph_msgs_generate_messages_lisp: rosaria/CMakeFiles/rosgraph_msgs_generate_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -642,12 +642,12 @@ tf_generate_messages_eus: rosaria/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # fast build rule for target.
 tf_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_eus.dir/build.make rosaria/CMakeFiles/tf_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_eus.dir/build.make rosaria/CMakeFiles/tf_generate_messages_eus.dir/build
 .PHONY : tf_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -657,12 +657,12 @@ geometry_msgs_generate_messages_cpp: rosaria/CMakeFiles/geometry_msgs_generate_m
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -672,12 +672,12 @@ sensor_msgs_generate_messages_nodejs: rosaria/CMakeFiles/sensor_msgs_generate_me
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -687,12 +687,12 @@ rosgraph_msgs_generate_messages_cpp: rosaria/CMakeFiles/rosgraph_msgs_generate_m
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -702,12 +702,12 @@ roscpp_generate_messages_cpp: rosaria/CMakeFiles/roscpp_generate_messages_cpp.di
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -717,12 +717,12 @@ rosaria_generate_messages_py: rosaria/CMakeFiles/rosaria_generate_messages_py.di
 
 # fast build rule for target.
 rosaria_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_py.dir/build
 .PHONY : rosaria_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -732,12 +732,12 @@ geometry_msgs_generate_messages_eus: rosaria/CMakeFiles/geometry_msgs_generate_m
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -747,12 +747,12 @@ actionlib_msgs_generate_messages_py: rosaria/CMakeFiles/actionlib_msgs_generate_
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_generate_messages.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -762,12 +762,12 @@ rosaria_generate_messages: rosaria/CMakeFiles/rosaria_generate_messages.dir/rule
 
 # fast build rule for target.
 rosaria_generate_messages/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages.dir/build
 .PHONY : rosaria_generate_messages/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -777,12 +777,12 @@ rosgraph_msgs_generate_messages_nodejs: rosaria/CMakeFiles/rosgraph_msgs_generat
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -792,12 +792,12 @@ nav_msgs_generate_messages_cpp: rosaria/CMakeFiles/nav_msgs_generate_messages_cp
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -807,12 +807,12 @@ roscpp_generate_messages_eus: rosaria/CMakeFiles/roscpp_generate_messages_eus.di
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -822,12 +822,12 @@ rosgraph_msgs_generate_messages_eus: rosaria/CMakeFiles/rosgraph_msgs_generate_m
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -837,12 +837,12 @@ rosaria_generate_messages_lisp: rosaria/CMakeFiles/rosaria_generate_messages_lis
 
 # fast build rule for target.
 rosaria_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/rosaria_generate_messages_lisp.dir/build
 .PHONY : rosaria_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_gencfg.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_gencfg.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_gencfg.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_gencfg.dir/rule
 
 # Convenience name for target.
@@ -852,12 +852,12 @@ rosaria_gencfg: rosaria/CMakeFiles/rosaria_gencfg.dir/rule
 
 # fast build rule for target.
 rosaria_gencfg/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_gencfg.dir/build.make rosaria/CMakeFiles/rosaria_gencfg.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_gencfg.dir/build.make rosaria/CMakeFiles/rosaria_gencfg.dir/build
 .PHONY : rosaria_gencfg/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -867,12 +867,12 @@ tf_generate_messages_cpp: rosaria/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/tf_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -882,12 +882,12 @@ actionlib_generate_messages_eus: rosaria/CMakeFiles/actionlib_generate_messages_
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_gennodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_gennodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_gennodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -897,12 +897,12 @@ rosaria_gennodejs: rosaria/CMakeFiles/rosaria_gennodejs.dir/rule
 
 # fast build rule for target.
 rosaria_gennodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_gennodejs.dir/build.make rosaria/CMakeFiles/rosaria_gennodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_gennodejs.dir/build.make rosaria/CMakeFiles/rosaria_gennodejs.dir/build
 .PHONY : rosaria_gennodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -912,12 +912,12 @@ geometry_msgs_generate_messages_nodejs: rosaria/CMakeFiles/geometry_msgs_generat
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -927,12 +927,12 @@ std_msgs_generate_messages_nodejs: rosaria/CMakeFiles/std_msgs_generate_messages
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -942,12 +942,12 @@ geometry_msgs_generate_messages_py: rosaria/CMakeFiles/geometry_msgs_generate_me
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -957,12 +957,12 @@ actionlib_msgs_generate_messages_lisp: rosaria/CMakeFiles/actionlib_msgs_generat
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -972,12 +972,12 @@ tf2_msgs_generate_messages_py: rosaria/CMakeFiles/tf2_msgs_generate_messages_py.
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -987,12 +987,12 @@ actionlib_msgs_generate_messages_nodejs: rosaria/CMakeFiles/actionlib_msgs_gener
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1002,12 +1002,12 @@ sensor_msgs_generate_messages_cpp: rosaria/CMakeFiles/sensor_msgs_generate_messa
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1017,12 +1017,12 @@ sensor_msgs_generate_messages_lisp: rosaria/CMakeFiles/sensor_msgs_generate_mess
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1032,12 +1032,12 @@ actionlib_generate_messages_cpp: rosaria/CMakeFiles/actionlib_generate_messages_
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1047,12 +1047,12 @@ sensor_msgs_generate_messages_py: rosaria/CMakeFiles/sensor_msgs_generate_messag
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1062,12 +1062,12 @@ rosgraph_msgs_generate_messages_py: rosaria/CMakeFiles/rosgraph_msgs_generate_me
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make rosaria/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1077,12 +1077,12 @@ tf_generate_messages_lisp: rosaria/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/tf_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1092,12 +1092,12 @@ roscpp_generate_messages_py: rosaria/CMakeFiles/roscpp_generate_messages_py.dir/
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_py.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/roscpp_generate_messages_py.dir/build.make rosaria/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1107,12 +1107,12 @@ tf_generate_messages_nodejs: rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/
 
 # fast build rule for target.
 tf_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/tf_generate_messages_nodejs.dir/build
 .PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_py.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/tf_generate_messages_py.dir/rule
 .PHONY : rosaria/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1122,12 +1122,12 @@ tf_generate_messages_py: rosaria/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_py.dir/build.make rosaria/CMakeFiles/tf_generate_messages_py.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/tf_generate_messages_py.dir/build.make rosaria/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1137,12 +1137,12 @@ actionlib_msgs_generate_messages_eus: rosaria/CMakeFiles/actionlib_msgs_generate
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1152,12 +1152,12 @@ actionlib_generate_messages_lisp: rosaria/CMakeFiles/actionlib_generate_messages
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/rosaria_geneus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_geneus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/rosaria_geneus.dir/rule
 .PHONY : rosaria/CMakeFiles/rosaria_geneus.dir/rule
 
 # Convenience name for target.
@@ -1167,12 +1167,12 @@ rosaria_geneus: rosaria/CMakeFiles/rosaria_geneus.dir/rule
 
 # fast build rule for target.
 rosaria_geneus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_geneus.dir/build.make rosaria/CMakeFiles/rosaria_geneus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/rosaria_geneus.dir/build.make rosaria/CMakeFiles/rosaria_geneus.dir/build
 .PHONY : rosaria_geneus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1182,12 +1182,12 @@ std_msgs_generate_messages_cpp: rosaria/CMakeFiles/std_msgs_generate_messages_cp
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1197,12 +1197,12 @@ actionlib_msgs_generate_messages_cpp: rosaria/CMakeFiles/actionlib_msgs_generate
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make rosaria/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 .PHONY : rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1212,12 +1212,12 @@ sensor_msgs_generate_messages_eus: rosaria/CMakeFiles/sensor_msgs_generate_messa
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make rosaria/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1227,7 +1227,7 @@ actionlib_generate_messages_nodejs: rosaria/CMakeFiles/actionlib_generate_messag
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make rosaria/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 LaserPublisher.o: LaserPublisher.cpp.o
@@ -1236,7 +1236,7 @@ LaserPublisher.o: LaserPublisher.cpp.o
 
 # target to build an object file
 LaserPublisher.cpp.o:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/LaserPublisher.cpp.o
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/LaserPublisher.cpp.o
 .PHONY : LaserPublisher.cpp.o
 
 LaserPublisher.i: LaserPublisher.cpp.i
@@ -1245,7 +1245,7 @@ LaserPublisher.i: LaserPublisher.cpp.i
 
 # target to preprocess a source file
 LaserPublisher.cpp.i:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/LaserPublisher.cpp.i
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/LaserPublisher.cpp.i
 .PHONY : LaserPublisher.cpp.i
 
 LaserPublisher.s: LaserPublisher.cpp.s
@@ -1254,7 +1254,7 @@ LaserPublisher.s: LaserPublisher.cpp.s
 
 # target to generate assembly for a file
 LaserPublisher.cpp.s:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/LaserPublisher.cpp.s
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/LaserPublisher.cpp.s
 .PHONY : LaserPublisher.cpp.s
 
 RosAria.o: RosAria.cpp.o
@@ -1263,7 +1263,7 @@ RosAria.o: RosAria.cpp.o
 
 # target to build an object file
 RosAria.cpp.o:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/RosAria.cpp.o
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/RosAria.cpp.o
 .PHONY : RosAria.cpp.o
 
 RosAria.i: RosAria.cpp.i
@@ -1272,7 +1272,7 @@ RosAria.i: RosAria.cpp.i
 
 # target to preprocess a source file
 RosAria.cpp.i:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/RosAria.cpp.i
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/RosAria.cpp.i
 .PHONY : RosAria.cpp.i
 
 RosAria.s: RosAria.cpp.s
@@ -1281,7 +1281,7 @@ RosAria.s: RosAria.cpp.s
 
 # target to generate assembly for a file
 RosAria.cpp.s:
-	cd /home/eric/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/RosAria.cpp.s
+	cd /home/eric/amigo-bot/catkin_ws/build && $(MAKE) -f rosaria/CMakeFiles/RosAria.dir/build.make rosaria/CMakeFiles/RosAria.dir/RosAria.cpp.s
 .PHONY : RosAria.cpp.s
 
 # Help Target
@@ -1385,6 +1385,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/eric/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/eric/amigo-bot/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

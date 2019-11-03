@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/eric/catkin_ws/src/rosaria_client/src/interface.cpp
+/home/eric/amigo-bot/catkin_ws/src/rosaria_client/src/interface.cpp
 ros/ros.h
 -
 iostream

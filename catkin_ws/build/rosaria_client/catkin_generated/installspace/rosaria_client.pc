@@ -1,8 +1,8 @@
-prefix=/home/eric/catkin_ws/install
+prefix=/home/eric/amigo-bot/catkin_ws/install
 
 Name: rosaria_client
 Description: Description of rosaria_client
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/eric/catkin_ws/install/lib 
+Libs: -L/home/eric/amigo-bot/catkin_ws/install/lib 
 Requires: 

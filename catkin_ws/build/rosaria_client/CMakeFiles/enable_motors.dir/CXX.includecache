@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/eric/catkin_ws/src/rosaria_client/src/enable_motors.cpp
+/home/eric/amigo-bot/catkin_ws/src/rosaria_client/src/enable_motors.cpp
 ros/ros.h
 -
 

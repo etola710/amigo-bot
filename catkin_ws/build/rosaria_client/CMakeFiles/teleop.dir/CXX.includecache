@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/eric/catkin_ws/src/rosaria_client/src/teleop.cpp
+/home/eric/amigo-bot/catkin_ws/src/rosaria_client/src/teleop.cpp
 ros/ros.h
 -
 geometry_msgs/Twist.h

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosaria_generate_messages_py"
-  "/home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py"
-  "/home/eric/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py"
+  "/home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py"
+  "/home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eric/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/eric/amigo-bot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eric/catkin_ws/build
+CMAKE_BINARY_DIR = /home/eric/amigo-bot/catkin_ws/build
 
 # Utility rule file for _rosaria_generate_messages_check_deps_BumperState.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/eric/catkin_ws/build
 include rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/progress.make
 
 rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState:
-	cd /home/eric/catkin_ws/build/rosaria && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py rosaria /home/eric/catkin_ws/src/rosaria/msg/BumperState.msg std_msgs/Header
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py rosaria /home/eric/amigo-bot/catkin_ws/src/rosaria/msg/BumperState.msg std_msgs/Header
 
 _rosaria_generate_messages_check_deps_BumperState: rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState
 _rosaria_generate_messages_check_deps_BumperState: rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/build.make
@@ -67,10 +67,10 @@ rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/build: 
 .PHONY : rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/build
 
 rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/clean:
-	cd /home/eric/catkin_ws/build/rosaria && $(CMAKE_COMMAND) -P CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/cmake_clean.cmake
+	cd /home/eric/amigo-bot/catkin_ws/build/rosaria && $(CMAKE_COMMAND) -P CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/cmake_clean.cmake
 .PHONY : rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/clean
 
 rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/depend:
-	cd /home/eric/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/catkin_ws/src /home/eric/catkin_ws/src/rosaria /home/eric/catkin_ws/build /home/eric/catkin_ws/build/rosaria /home/eric/catkin_ws/build/rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eric/amigo-bot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eric/amigo-bot/catkin_ws/src /home/eric/amigo-bot/catkin_ws/src/rosaria /home/eric/amigo-bot/catkin_ws/build /home/eric/amigo-bot/catkin_ws/build/rosaria /home/eric/amigo-bot/catkin_ws/build/rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosaria/CMakeFiles/_rosaria_generate_messages_check_deps_BumperState.dir/depend
 

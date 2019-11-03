@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosaria_generate_messages_lisp"
-  "/home/eric/catkin_ws/devel/share/common-lisp/ros/rosaria/msg/BumperState.lisp"
+  "/home/eric/amigo-bot/catkin_ws/devel/share/common-lisp/ros/rosaria/msg/BumperState.lisp"
 )
 
 # Per-language clean rules from dependency scanning.
