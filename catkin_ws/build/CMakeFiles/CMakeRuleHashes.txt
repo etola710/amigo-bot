@@ -1,6 +1,6 @@
 # Hashes of file build rules.
 5bc61c5e3666950d8c009577fedd4be2 /home/eric/amigo-bot/catkin_ws/devel/include/rosaria/BumperState.h
-2cb0fbcc4d92e4843ef1b0057a04cebd /home/eric/amigo-bot/catkin_ws/devel/include/rosaria/RosAriaConfig.h
+c0d27711dfdc9bb9465082ed2aa46447 /home/eric/amigo-bot/catkin_ws/devel/include/rosaria/RosAriaConfig.h
 2d9270f24d61f343d72ce9b896e2b5d6 /home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/_BumperState.py
 6b3263756c9d1fd7e0cefa5ec304b1a3 /home/eric/amigo-bot/catkin_ws/devel/lib/python2.7/dist-packages/rosaria/msg/__init__.py
 1a6dec739eba1b1e004b5d7575c89499 /home/eric/amigo-bot/catkin_ws/devel/share/common-lisp/ros/rosaria/msg/BumperState.lisp

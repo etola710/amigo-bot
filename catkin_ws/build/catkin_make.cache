@@ -1,2 +1,2 @@
-rosaria:rosaria_client
+rosaria:rosaria_client:rosaria_mobility
 -DCATKIN_DEVEL_PREFIX=/home/eric/amigo-bot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/eric/amigo-bot/catkin_ws/install -G Unix Makefiles

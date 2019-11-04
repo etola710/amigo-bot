@@ -3068,6 +3068,24 @@ clean: rosaria_client/CMakeFiles/teleop.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory rosaria_mobility
+
+# Convenience name for "all" pass in the directory.
+rosaria_mobility/all:
+
+.PHONY : rosaria_mobility/all
+
+# Convenience name for "clean" pass in the directory.
+rosaria_mobility/clean:
+
+.PHONY : rosaria_mobility/clean
+
+# Convenience name for "preinstall" pass in the directory.
+rosaria_mobility/preinstall:
+
+.PHONY : rosaria_mobility/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

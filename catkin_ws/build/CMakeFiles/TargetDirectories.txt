@@ -120,3 +120,10 @@
 /home/eric/amigo-bot/catkin_ws/build/rosaria_client/CMakeFiles/teleop.dir
 /home/eric/amigo-bot/catkin_ws/build/rosaria_client/CMakeFiles/install/strip.dir
 /home/eric/amigo-bot/catkin_ws/build/rosaria_client/CMakeFiles/install/local.dir
+/home/eric/amigo-bot/catkin_ws/build/rosaria_mobility/CMakeFiles/list_install_components.dir
+/home/eric/amigo-bot/catkin_ws/build/rosaria_mobility/CMakeFiles/install.dir
+/home/eric/amigo-bot/catkin_ws/build/rosaria_mobility/CMakeFiles/rebuild_cache.dir
+/home/eric/amigo-bot/catkin_ws/build/rosaria_mobility/CMakeFiles/install/strip.dir
+/home/eric/amigo-bot/catkin_ws/build/rosaria_mobility/CMakeFiles/install/local.dir
+/home/eric/amigo-bot/catkin_ws/build/rosaria_mobility/CMakeFiles/test.dir
+/home/eric/amigo-bot/catkin_ws/build/rosaria_mobility/CMakeFiles/edit_cache.dir

@@ -7,3 +7,4 @@
 subdirs(gtest)
 subdirs(rosaria)
 subdirs(rosaria_client)
+subdirs(rosaria_mobility)

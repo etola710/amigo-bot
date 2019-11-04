@@ -1,0 +1,8 @@
+prefix=/home/eric/amigo-bot/catkin_ws/install
+
+Name: rosaria_mobility
+Description: Description of rosaria_mobility
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eric/amigo-bot/catkin_ws/install/lib 
+Requires: 

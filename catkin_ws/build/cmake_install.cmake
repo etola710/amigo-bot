@@ -119,6 +119,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/eric/amigo-bot/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/eric/amigo-bot/catkin_ws/build/rosaria/cmake_install.cmake")
   include("/home/eric/amigo-bot/catkin_ws/build/rosaria_client/cmake_install.cmake")
+  include("/home/eric/amigo-bot/catkin_ws/build/rosaria_mobility/cmake_install.cmake")
 
 endif()
 
